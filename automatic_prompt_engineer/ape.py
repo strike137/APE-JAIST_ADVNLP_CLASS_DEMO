@@ -21,7 +21,7 @@ def simple_ape(dataset,
                eval_model='davinci-002',
                prompt_gen_model='davinci-002',
                prompt_gen_mode='forward',
-               num_prompts=25,
+               num_prompts=50,
                eval_rounds=20,
                prompt_gen_batch_size=200,
                eval_batch_size=500):
