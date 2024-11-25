@@ -21,9 +21,9 @@ def simple_ape(dataset,
                eval_model='davinci-002',
                prompt_gen_model='davinci-002',
                prompt_gen_mode='forward',
-               num_prompts=50,
+               num_prompts=35,
                eval_rounds=20,
-               prompt_gen_batch_size=1500,
+               prompt_gen_batch_size=200,
                eval_batch_size=500):
     """
     Function that wraps the find_prompts function to make it easier to use.
